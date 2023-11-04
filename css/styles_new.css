@@ -341,7 +341,9 @@ body {
   
   #about {
     padding: 75px 15px;
+
     border-bottom: 1px solid #dcd9d9;
+    
   }
   
   #about h2 {
@@ -857,6 +859,22 @@ body {
   .social {
     text-align: center;
   }
+}
+
+#your-photo {
+  width: 100%; /* Make the image 100% wide within its container */
+    height: auto; /* Maintain the aspect ratio and prevent distortion */
+    max-width: 600px; /* Set the maximum width to limit the size */
+    display: block; /* Ensure the image is centered within the container */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+#iit-logo {
+  position: absolute;
+   /* Adjust the top value to control the vertical position */
+  right: 10px; /* Adjust the right value to control the horizontal position */
+  width: 100px;
+  height: auto;
 }
 
 @media only screen and (max-width: 480px) {
